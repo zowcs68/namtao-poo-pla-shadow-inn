@@ -1,0 +1,18 @@
+{
+  "name": "namtao-poo-pla-shadow-inn",
+  "version": "1.0.0",
+  "description": "น้ำเต้าปูปลา: โรงเตี๊ยมเงาราตรี — เกมคอนโซล TypeScript แนว Functional Programming",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "tsx src/main.ts",
+    "build": "tsc -p .",
+    "play": "node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.0.0"
+  }
+}
